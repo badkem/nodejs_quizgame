@@ -1,0 +1,5 @@
+.env
+node_modules
+/api/quiz_list
+.idea
+/*.lock
