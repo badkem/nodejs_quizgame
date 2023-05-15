@@ -3,7 +3,7 @@ import express from "express";
 import Routes from "./routes";
 import connection from "./api/db_connection";
 
-const PORT = 3000;
+const PORT: number = Number(process.env.PORT) || 3000;
 const app = express();
 
 Routes(app);

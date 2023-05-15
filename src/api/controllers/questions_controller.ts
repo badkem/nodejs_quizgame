@@ -19,6 +19,7 @@ const findAllQuestions = async (req: Request, res: Response) => {
       success: true,
       message: "Get all questions successfully 🎉",
       data: questions,
+      total: questions.length,
     });
   } catch (error) {
     console.error(error);

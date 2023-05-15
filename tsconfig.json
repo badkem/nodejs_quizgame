@@ -3,11 +3,12 @@
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
-    "lib": ["esnext"],
+    "lib": ["es2019"],
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "target": "esnext",
     "moduleResolution": "Node"
-  }
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
