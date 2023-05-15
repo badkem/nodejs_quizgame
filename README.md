@@ -1,14 +1,15 @@
 # Quiz app
 
-The node.js example app return a list of questions:
-
-## Requirements
-
-* Node 16 or higher
-* Git
+The node.js example app return a list of questions for study purpose only.
 
 ## Installation
 
+## Method 1
+
+### Requirements
+
+* Node 16 or higher
+* Git
 
 Clone the repo and install the dependencies.
 
@@ -38,4 +39,16 @@ Get question by limit
 
 ```bash
 http://localhost:3000/questions?limit=10
+```
+
+## Method 2
+
+This is for non developers
+
+```bash
+https://pdteam-quiz.herokuapp.com/questions
+```
+
+```bash
+https://pdteam-quiz.herokuapp.com/questions?limit=10
 ```
