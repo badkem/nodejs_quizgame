@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "src/bad_server.ts",
   "scripts": {
-    "start": "ts-node-dev dist/bad_server.js",
+    "start": "node dist/bad_server.js",
     "dev": "ts-node-dev src/bad_server.ts",
     "postinstall": "tsc"
   },
