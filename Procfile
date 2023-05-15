@@ -1,1 +1,1 @@
-web: yarn start
+web: ts-node-dev dist/bad_server.js
